@@ -14,11 +14,13 @@ To start a search, the user could choose to filter by the location the sighting 
 If the user wanted to narrow the search even more, they could enter which city's data they would like to see. Typing "el cajon" into the "Enter City" search and hitting the enter key will refresh the table to show only the sightings occuring in El Cajon. Since the user kept the state search as "ca" it will only show the data of the El Cajons that exist in California.
 ![Filter_City.png](https://github.com/Lavernus/UFOs/blob/main/Ref/Filter_City.png)
 
-The user can also narrow the search with the date the sighting occured on. Typing "1/4/2010" into the "Enter Date" search without deleting any of the previous searches will produce a table containing sighting data that occured in El Cajon, California on 1/4/2010.
+Narrowing it further by the shape of the UFO is possible by typing the desired shape into the "Enter Shape" search and hitting the enter key. If the user keeps the previous searches as is and enters "light" into the search they will have narrowed the table down into only two sightings:
+![Filter_Shape.png](https://github.com/Lavernus/UFOs/blob/main/Ref/Filter_Shape.png)
+
+The user can also narrow the search with the date the sighting occured on. Typing "1/4/2010" into the "Enter Date" search without deleting any of the previous searches will produce a table containing sighting data that occured on 1/4/2010.
 ![Filter_Date.png](https://github.com/Lavernus/UFOs/blob/main/Ref/Filter_Date.png)
 
-Narrowing it further by the shape of the UFO is possible by typing the desired shape into the "Enter Shape" search and hitting the enter key. If the user keeps the previous searches as is and enters "light" into the search they will have narrowed the table down into only one sighting:
-![Filter_Shape.png](https://github.com/Lavernus/UFOs/blob/main/Ref/Filter_Shape.png)
+
 
 ## Summary
 This setup accounts for multiple criteria in the searches, allowing the user to narrow the scope of their search to specific instances of UFO sightings. One drawback of this webpage, however, is that it is not apparent to the users the limitations of the dataset. This means that they could be fruitlessly searching for sightings that occured in Mexico or Ireland without realizing that the data for these countries aren't included in the dataset. 
